@@ -1,0 +1,17 @@
+<div class="container" ng-controller="homeCtrl" >
+<h1>Welcome To FuzzBuzz Game </h1>
+
+    <h3>The limit length of entered number is 5</h3>
+    <div>
+		  <form>
+		    Enter a number : <input type="text" limit-to="5" ng-model="fuzzBuzzNumber" only-digits>
+		  </form>
+		  <button ng-click="calculateFuzzBuzz()">Send</button><br>
+		  <button ng-click="resetFuzzBuzz()">Reinitialize</button>
+	</div>
+	<div ng-if="fuzzBuzzReslut" >
+			  <h3>The result of FuzzBuzz for entred number {{fuzzBuzzNumber}} is :</h3>
+			  {{fuzzBuzzReslut}}
+	</div>
+</div>
+    
