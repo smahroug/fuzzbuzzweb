@@ -12,8 +12,6 @@ angular.module('fuzzbuzzHomeService', [])
 	
 	return { calculateFuzzBuzz: calculateFuzzBuzz };
 	
-	//'api/calculate/'+fuzzBuzzNumber
-	
 });
 
 

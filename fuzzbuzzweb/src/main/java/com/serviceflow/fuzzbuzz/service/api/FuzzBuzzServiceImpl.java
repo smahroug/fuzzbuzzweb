@@ -19,9 +19,7 @@ public class FuzzBuzzServiceImpl implements FuzzBussService{
 	                retval.append(String.valueOf(i)).append(" ");
 	            }
 	        }
-		}
-		
-		
+		}	
 		return retval.toString();
 	}
 

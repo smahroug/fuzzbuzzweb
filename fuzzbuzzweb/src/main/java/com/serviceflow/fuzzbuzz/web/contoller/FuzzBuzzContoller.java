@@ -20,7 +20,6 @@ public class FuzzBuzzContoller {
 	@RequestMapping(value = "/api/calculate/{value}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public JSONWrappedObject calulateFuzzBuzz(@PathVariable Integer value) {
 		return new JSONWrappedObject(null, null, fuzzBussService.calulateFuzzBuzz(value));
-		//return fuzzBussService.calulateFuzzBuzz(value);
 	}	
 
 }

@@ -13,9 +13,6 @@ angular.module('fuzzbuzzHomeCtrl', []).controller('homeCtrl', ['$scope', 'homeSe
 		$scope.fuzzBuzzNumber= null;
 		$scope.fuzzBuzzReslut = null;
 	}
-	 
-
-
 }]).directive('onlyDigits', function () {
     return {
         require: 'ngModel',

@@ -6,17 +6,9 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
     $stateProvider
 
-        // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
             url: '/home',
             templateUrl: 'app/components/home/fuzzbuzz.html'
-        })
-        
-//        .state('home', {
-//            url: '/home',
-//            templateUrl: 'app/components/home/partial-home.html'
-//        })
-        
-        ;
+        });
 
 });
